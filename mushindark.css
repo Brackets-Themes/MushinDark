@@ -1,0 +1,100 @@
+/* SWATCHES ---------------------------------------------------------------------- */
+
+span.cm-builtin     { color: #ffffff; }
+span.cm-def			{ color: #ffffff; }
+span.cm-header      { color: #ffffff; }
+span.cm-qualifier	{ color: #ffffff; }
+
+span.cm-atom		{ color: #82828d; }
+span.cm-bracket		{ color: #82828d; }
+span.cm-link		{ color: #82828d; border-bottom: 1px dotted #666666; }
+span.cm-meta		{ color: #82828d; }
+span.cm-number		{ color: #82828d; }
+span.cm-operator	{ color: #82828d; }
+span.cm-string		{ color: #82828d; border-bottom: 1px dotted #666666; }
+span.cm-string-2    { color: #82828d; border-bottom: 1px dotted #666666; }
+span.cm-tag			{ color: #82828d; }
+
+span.cm-attribute	{ color: #bbbbc6; }
+span.cm-keyword		{ color: #bbbbc6; font-weight: 700; }
+span.cm-property	{ color: #bbbbc6; } /* property after string */
+span.cm-variable	{ color: #bbbbc6; }
+span.cm-variable-2	{ color: #bbbbc6; }
+span.cm-variable-3	{ color: #bbbbc6; }
+
+span.cm-comment		{ color: #5f5f5f; font-style: italic; }
+span.cm-error		{ color: #ed325b; }
+
+
+/* MISC ---------------------------------------------------------------------- */
+
+.CodeMirror {
+    line-height: 1.5;
+}
+
+.CodeMirror-scroll {
+    background: #111;
+	color: #c8c6d1;
+}
+
+.CodeMirror-cursor {
+	border-left: 1px solid #fff !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-bottom: 1px solid #fff !important;
+    border-left: none !important;
+}
+
+.CodeMirror-gutters {
+	background: #111;
+	border-right: 1px solid #111;
+}
+
+.CodeMirror-linenumber {
+	color: #454545;
+}
+
+.CodeMirror-selected {
+    background-color: #004581;
+}
+
+
+/* Active Line */
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
+	color: #ed325b !important;
+}
+
+.CodeMirror-activeline-background {
+	background: #1e2021 !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+	color: #fff;
+	background-color: transparent !important;
+}
+
+
+/* Matching */
+
+.CodeMirror-matchingbracket {
+    background: #555 !important;
+    color: #fff !important;
+}
+
+.CodeMirror-matchingtag {
+    background: #242424 !important;
+}
+
+
+/* Non-editor styling */
+
+#image-holder,
+#not-editor {
+    background-color: #111;
+}
+
+#image-holder {
+    color: #c8c6d1;
+}
